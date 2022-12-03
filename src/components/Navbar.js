@@ -19,11 +19,11 @@ function Navbar() {
       <div onClick={handleNav} className="block md:hidden">   {/*Mobile Menu*/}
         {!nav ? <RxCross2 size={35}/> : < RxTokens size={35}/>}
       </div>
-      <div className= {!nav? 'w-[50%] h-full fixed right-0 top-0 border-r border-teal-700 bg-[#bbd5db] ease-in-out duration-500' : 'fixed right-[-100%]'}>
+      <div className= {!nav? 'w-[50%] h-full fixed right-0 top-0 border-r border-teal-700 bg-[#bbd5db] ease-in-out duration-500 ' : 'fixed right-[-100%] '}>
         <div onClick={handleNav} className="block md:hidden p-6">   {/*Mobile Menu*/}
         {!nav ? <RxCross2 size={35}/> : < RxTokens size={35}/>}
       </div>
-        <ul className='p-4 uppercase'>
+        <ul className='p-4 uppercase '>
             <li className='p-4 border-b border-teal-800'>Home</li>
               <li className='p-4 border-b border-teal-800'>Projects</li>
             <li className='p-4 border-b border-teal-800'>Contact</li>
