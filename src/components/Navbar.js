@@ -35,8 +35,8 @@ function Navbar() {
         <div 
           className={
             nav
-              ? "rounded-l-lg cursor-pointer w-[30%] fixed right-0 top-0 border- bg-[#2a9d8f] ease-in-out duration-500 "
-              : "rounded-l-lg top-0 w-[25%] ease-in-out duration-500 fixed right-[-100%]"
+              ? "rounded-l-lg cursor-pointer w-[30%] h-[100%] fixed right-0 top-0 border- bg-[#2a9d8f] ease-in-out duration-500 "
+              : "rounded-l-lg top-0 w-[25%] h-[100%] ease-in-out duration-500 fixed right-[-100%]"
           }>
           <div onClick={handleNav} className="p-3 cursor-pointer right-0 top-0">
           {nav ? (
