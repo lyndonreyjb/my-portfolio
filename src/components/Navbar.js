@@ -42,7 +42,7 @@ function Navbar() {
           {nav ? (
             <RxCross2 size={35} color="#FCD34D" />
           ) : (
-            <RxTokens size={35} color="#FCD34D" />
+            <RxTokens size={35} color="#FCD34D" />// updated
           )}
           </div>
           <ul className="p-4 uppercase font-medium text-white">
